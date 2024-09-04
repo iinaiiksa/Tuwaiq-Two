@@ -18,7 +18,7 @@ public class LoginPages {
     }
     public void passwordField(){
         WebElement userName = driver.findElement(password);
-        userName.sendKeys("NnWw@1020");
+        userName.sendKeys("****");
     }
     public void loginbtn(){
         WebElement loginbtn =driver.findElement(loginButton);
