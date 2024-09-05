@@ -12,7 +12,9 @@ public class LoginPages {
     public void openUrl() {
         driver.get("https://github.com/login");
     }
-    public void usernameField(){
+
+    public void usernameField() {
+
         WebElement userName = driver.findElement(username);
         userName.sendKeys("naif.sar1122@gmail.com");
     }
